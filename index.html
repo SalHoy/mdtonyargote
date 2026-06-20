@@ -1052,7 +1052,7 @@
     }
 
     function donateForProgram(programName) {
-      const text = `Hola Dr. Tony! Vi el programa social de la Fundación: *${programName}*, y me gustaría recibir información para realizar una donación o apoyar como patrocinador.`;
+      const text = `Hola Tony! Vi el programa social de la Fundación: *${programName}*, y me gustaría recibir información para realizar una donación o apoyar como patrocinador.`;
       window.open(`https://api.whatsapp.com/send?phone=${config.whatsapp}&text=${encodeURIComponent(text)}`, '_blank');
       showToast("Preparando mensaje de donación...");
     }
